@@ -1,5 +1,5 @@
 # academind-react
-This contains codes related to "React - The Complete Guide (incl Hooks, React Router, Redux)" course by Academind
+This contains codes related to "React - The Complete Guide (including Hooks, React Router, Redux)" course by Academind
 
 ## Completed Course Content
 

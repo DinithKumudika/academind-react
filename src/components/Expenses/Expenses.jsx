@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ExpenseItem from './ExpenseItem/ExpenseItem';
 import Card from '../UI/Card/Card';
 import './Expenses.css';
 
-const Expenses = ({items}) => {
+const Expenses = ({items, onDeleteExpense}) => {
      return (
           <Card className="expenses">
                {items.map((expense) => (
@@ -12,6 +12,7 @@ const Expenses = ({items}) => {
                          title={expense.title}
                          amount={expense.amount}
                          key={expense.id}
+                         onDeleteExpense={onDeleteExpense}
                     />
                ))}
           </Card>
